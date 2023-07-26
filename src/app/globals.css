@@ -178,10 +178,7 @@ p
   display: flex;
   align-items: center;
 }
-span
-{
-  font-weight: 500;
-}
+
 .Comunidad h2
 {
   margin-top: 16%;
@@ -211,6 +208,7 @@ span
 /***********Menu**********/
 .Menu
 {
+  height: 608vh;
   z-index: 100;
   position: absolute;
   background-color: white;
@@ -228,7 +226,7 @@ span
 .close
 {
   cursor: pointer;
-  padding-top: 45%;
+  padding-top: 55%;
   padding-left: 15%;
   width: 8%;
   margin-bottom: 15%;
@@ -238,4 +236,14 @@ span
   margin: 30% 0%;
   display: flex;
   justify-content: space-evenly;
+}
+
+/***********WebSites********/
+.WebSites h2
+{
+  margin-bottom: 3%;
+}
+.span
+{
+  font-family: "MonserratLight";
 }

@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function SideMenu()
+export default function SideMenu({setMenu, menu})
 {
     return(
-        <div className="Menu">
-            <div className="close">
+        <div className="Menu" id="menu" style={{display: menu}}>
+            <div className="close" onClick={()=>(setMenu("none"))}>
                 <Image src="back.svg" fill className="Image"/>
             </div>
             

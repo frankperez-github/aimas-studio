@@ -1,13 +1,25 @@
+'use client'
 import Image from "next/image";
-function Header() {
-    return(
-        <div className="Header">
-            <div className="Logo">
-                <Image className="Image" src="/Logo.svg" fill/>
-            </div>
+import { useState } from "react";
+import SideMenu from '@/Components/SideMenu'
+import Link from "next/link";
 
-            <div className="burgerMenu">
-                <Image className="Image" src="/Burger.svg" fill/>
+function Header() { 
+    const [menu,setMenu] = useState("none")
+
+    return(
+        <div className="">
+            <SideMenu setMenu={setMenu} menu={menu}/>
+            <div className="Header">
+                <div className="Logo">
+                    <Link href="/">
+                        <Image className="Image" src="/Logo.svg" fill/>
+                    </Link>
+                </div>
+
+                <div className="burgerMenu" onClick={()=>setMenu("block")}>
+                    <Image className="Image" src="/Burger.svg" fill/>
+                </div>
             </div>
         </div>
     );
