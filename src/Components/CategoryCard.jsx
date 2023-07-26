@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function CategoryCard({bold, regular, image})
 {
     return(
@@ -10,7 +11,9 @@ export default function CategoryCard({bold, regular, image})
                 <h3>{bold}</h3>
                 <p>{regular}</p>
             </div>
-            <button>ver más</button>
+            <Link href={"/"+bold+regular}>
+                <button>ver más</button>
+            </Link>
         </div>
     );
 }
