@@ -6,7 +6,7 @@ export default function SideMenu({setMenu, menu})
     return(
         <div className="Menu" id="menu" style={{display: menu}}>
             <div className="close" onClick={()=>(setMenu("none"))}>
-                <Image src="back.svg" fill className="Image"/>
+                <Image alt="" src="back.svg" fill className="Image"/>
             </div>
             
             <Link href="/">
@@ -27,13 +27,13 @@ export default function SideMenu({setMenu, menu})
 
             <div className="networks">
                 <div className="Instagram socialNet">
-                    <Image src="InstagramLight.svg" fill className="Image"/>
+                    <Image alt="" src="InstagramLight.svg" fill className="Image"/>
                 </div>
                 <div className="Facebook socialNet">
-                    <Image src="FacebookLight.svg" fill className="Image"/>
+                    <Image alt="" src="FacebookLight.svg" fill className="Image"/>
                 </div>
                 <div className="WhatsApp socialNet">
-                    <Image src="WhatsAppLight.svg" fill className="Image"/>
+                    <Image alt="" src="WhatsAppLight.svg" fill className="Image"/>
                 </div>
             </div>
         </div>

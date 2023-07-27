@@ -8,7 +8,7 @@ export default function Projects()
 {
     const {projects} = useContext(SiteContext) 
     return(
-        <div className="main">
+        <div className="">
             <Header />
             <h2 className="container">Galería <span className="span"> de proyectos</span></h2>
             {projects.map(project=>(

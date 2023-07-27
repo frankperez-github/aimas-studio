@@ -5,7 +5,7 @@ export default function ProjectCard({title, description, currStatus, image})
     return(
         <div className="Project">
             <div className="PrincipalImage">
-                <Image src={image} fill className="Image"/>
+                <Image alt="" src={image} fill className="Image"/>
             </div>
             <div className="container">
                 <h6>{title}</h6>

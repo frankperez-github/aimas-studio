@@ -13,12 +13,12 @@ function Header() {
             <div className="Header">
                 <div className="Logo">
                     <Link href="/">
-                        <Image className="Image" src="/Logo.svg" fill/>
+                        <Image alt="" className="Image" src="/Logo.svg" fill/>
                     </Link>
                 </div>
 
                 <div className="burgerMenu" onClick={()=>setMenu("block")}>
-                    <Image className="Image" src="/Burger.svg" fill/>
+                    <Image alt="" className="Image" src="/Burger.svg" fill/>
                 </div>
             </div>
         </div>

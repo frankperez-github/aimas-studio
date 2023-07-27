@@ -20,11 +20,11 @@ export default function MainPage()
             <Link href="/Projects">
                 <div className="goToGallery">
                     <div className="collage">
-                        <Image src="/aimasCollage.svg" fill className="Image"/>
+                        <Image alt="" src="/aimasCollage.svg" fill className="Image"/>
                     </div>
                     <div className="line">
                         <div className="redTriang" style={{width: "7%", paddingRight: "3%"}}>
-                            <Image src="/redPointer.svg" fill className="Image"/>
+                            <Image alt="" src="/redPointer.svg" fill className="Image"/>
                         </div>
                         <h5> Galería <span>de proyectos</span></h5>
                     </div>

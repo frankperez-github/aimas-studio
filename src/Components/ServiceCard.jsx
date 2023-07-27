@@ -7,7 +7,7 @@ export default function ServiceCard({other, image, color, bold, regular, text})
             <div className="cardTitle">
                 <h3>{bold} <span className="span">{regular}</span></h3>
                 <div className="">
-                    <Image src={image} className="Image" fill/>
+                    <Image alt="" src={image} className="Image" fill/>
                 </div>
             </div>
             {text.split("\n").map((text)=>(
