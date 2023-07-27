@@ -8,7 +8,7 @@ export default function Footer()
                 <Image src="/Instagram.svg" fill className="Image"/>
             </div>
             <div className="Facebook socialNet">
-                <Image src="F/acebook.svg" fill className="Image"/>
+                <Image src="/Facebook.svg" fill className="Image"/>
             </div>
             <div className="WhatsApp socialNet">
                 <Image src="/WhatsApp.svg" fill className="Image"/>

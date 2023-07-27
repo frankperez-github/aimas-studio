@@ -13,8 +13,8 @@ export default function MainPage()
                 </a>
             </div>
             <div className="categories">
-                <CategoryCard bold={"Diseño"}  regular={"Gráfico"} image={"/redCheck.svg"}/>
-                <CategoryCard bold={"Sitios"} regular={"Web"} image={"/blueCheck.svg"}/>
+                <CategoryCard path="GraphicalDesign" bold={"Diseño"}  regular={"Gráfico"} image={"/redCheck.svg"}/>
+                <CategoryCard path="WebSites" bold={"Sitios"} regular={"Web"} image={"/blueCheck.svg"}/>
             </div>
             <div className="goToGallery">
                 <div className="collage">

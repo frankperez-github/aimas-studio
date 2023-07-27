@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ServiceCard({image, color, bold, regular, text})
+export default function ServiceCard({other, image, color, bold, regular, text})
 {
     return(
         <div className="ServiceCard">
@@ -10,9 +10,18 @@ export default function ServiceCard({image, color, bold, regular, text})
                     <Image src={image} className="Image" fill/>
                 </div>
             </div>
-            <p>{text}</p>
-            <button className="siteButton" style={{backgroundColor: color, color: "white", borderColor: color}}>solicitar más información</button>
-            <button className="siteButton" style={{backgroundColor: "white", color: color, borderColor: color}}>contratar servicio</button>
+            {text.split("\n").map((text)=>(
+                <p>{text}<br/><br/></p>
+            ))}
+            
+            {other ?
+                <button className="siteButton" style={{backgroundColor: color, color: "white", borderColor: color}}>contactar al comercial</button>
+                :
+                <div className="">
+                    <button className="siteButton" style={{backgroundColor: color, color: "white", borderColor: color}}>solicitar más información</button>
+                    <button className="siteButton" style={{backgroundColor: "white", color: color, borderColor: color}}>contratar servicio</button>
+                </div>
+}
         </div>
     );
 }
