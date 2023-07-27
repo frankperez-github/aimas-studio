@@ -247,3 +247,29 @@ p
 {
   font-family: "MonserratLight";
 }
+.cardTitle
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0 7% 0;
+}
+.ServiceCard
+{
+  border-radius: 15px;
+  background-color: white;
+  width: 75%;
+  margin: 5% 7.5%;
+  padding: 5%;
+  box-shadow: rgb(172, 172, 172) 3px 3px 17px;
+}
+.ServiceCard button
+{
+  border: solid;
+  border-width: 1px;
+  width: 100%;
+}
+.ServiceCard button:first-of-type
+{
+  margin-top: 10%;
+  margin-bottom: 0;
+}
