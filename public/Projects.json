@@ -1,0 +1,45 @@
+[
+    {
+        "image": "/karitex1.svg",
+        "title": "Karitex S.U.R.L",
+        "description": "Portada para redes sociales de empresa de confecciones textiles Karitex S.U.R.L",
+        "currStatus": "implementado"
+    },
+    {
+        "image": "/turquino.svg",
+        "title": "Turquino Tryp Havana Libre",
+        "description": "Diseño de Cartel promocional para evento temático del proyecto de organización de eventos SAFARI y póster de ofertas disponibles para la discoteca Turquino del hotel Tryp Havana Libre",
+        "currStatus": "implementado"
+    },
+    {
+        "image": "/frankperez.svg",
+        "title": "Portafolio desarrollador",
+        "description": "Diseño del portafolio del desarrollador web Frank Pérez Fleita",
+        "currStatus": "implementado"
+    },
+    {
+        "image": "/karitex2.svg",
+        "title": "Karitex S.U.R.L",
+        "description": "Sistema de publicaciones para redes sociales de la empresa de confecciones textiles Karitex S.U.R.L",
+        "currStatus": "implementado"
+    },
+    {
+        "image": "/Cchang2.svg",
+        "title": "Cchang S.U.R.L",
+        "description": "Rediseño del Identificador Visual de la empresa constructora Cchang S.U.R.L",
+        "currStatus":"próximo a implementarse"
+    },
+    {
+        "image": "/aguacero.svg",
+        "title": "Aguacero",
+        "description": "Post para episodio de podcast titulado \"Miedos\" del proyecto cultural Aguacero",
+        "currStatus": "implementado"
+    },
+    {
+        "image": "/bisne.svg",
+        "title": "El Bisne App",
+        "description": "Creación del nombre de marca, identificador visual, manual de identidad y sitio web de la plataforma \"El Bisne\".\n Proyecto que permite a los emprendedores cubanos tener un mini sitio web por un precio módico de alojamiento mensual.",
+        "currStatus": "implementado"
+    }
+
+]

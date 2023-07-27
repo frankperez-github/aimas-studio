@@ -1,5 +1,6 @@
 import Image from "next/image";
 import CategoryCard from "./CategoryCard";
+import Link from "next/link";
 
 export default function MainPage()
 {
@@ -16,17 +17,19 @@ export default function MainPage()
                 <CategoryCard path="GraphicalDesign" bold={"Diseño"}  regular={"Gráfico"} image={"/redCheck.svg"}/>
                 <CategoryCard path="WebSites" bold={"Sitios"} regular={"Web"} image={"/blueCheck.svg"}/>
             </div>
-            <div className="goToGallery">
-                <div className="collage">
-                    <Image src="/aimasCollage.svg" fill className="Image"/>
-                </div>
-                <div className="line">
-                    <div className="redTriang" style={{width: "7%", paddingRight: "3%"}}>
-                        <Image src="/redPointer.svg" fill className="Image"/>
+            <Link href="/Projects">
+                <div className="goToGallery">
+                    <div className="collage">
+                        <Image src="/aimasCollage.svg" fill className="Image"/>
                     </div>
-                    <h5> Galería <span>de proyectos</span></h5>
+                    <div className="line">
+                        <div className="redTriang" style={{width: "7%", paddingRight: "3%"}}>
+                            <Image src="/redPointer.svg" fill className="Image"/>
+                        </div>
+                        <h5> Galería <span>de proyectos</span></h5>
+                    </div>
                 </div>
-            </div>
+            </Link>
             <div className="Comunidad container">
                 <h2>Comunidad</h2>
                 <p>Contamos con una aplia comunidad digital en dónde te brindamos consejos y recomendacuones para impulsar tu negocio en distintas esferas</p>

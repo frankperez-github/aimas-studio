@@ -2,12 +2,12 @@
 import Header from "@/Components/Header";
 import ServiceCard from "@/Components/ServiceCard";
 import { useContext } from "react";
-import ServicesContext from "../Context/ServicesContext";
+import SiteContext from "../Context/SiteContext";
 import Footer from "@/Components/Footer";
 
 export default function WebSites()
 {
-    const{ services } = useContext(ServicesContext)
+    const{ services } = useContext(SiteContext)
     return(
         <div className="main">
             <Header />

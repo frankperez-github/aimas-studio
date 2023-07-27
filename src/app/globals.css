@@ -23,7 +23,7 @@ a, link
   font-family: "MonserratRegular";
   src: url(../../public/fonts/MontserratAlternates-Regular.ttf);
 }
-h1,h2,h3,b
+h1,h2,h3,h6,b
 {
   font-family: "MonserratBold";
 }
@@ -281,4 +281,21 @@ p
 {
   margin-top: 5%;
   margin-bottom: 15%;
+}
+
+/************Projects Gallery*********/
+.Project
+{
+  margin-top: 12%;
+  margin-bottom: 10%;
+  background-color: white;
+  padding-bottom: 5%;
+}
+.Project h6
+{
+  margin: 5% 0;
+}
+.Project p
+{
+  margin-bottom: 5%;
 }
