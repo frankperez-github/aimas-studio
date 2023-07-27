@@ -13,15 +13,15 @@ export default function SideMenu({setMenu, menu})
                 <h4>Inicio</h4>
             </Link>
 
-            <Link href="/DiseñoGráfico">
+            <Link href="/GraphicalDesign">
                 <h4>Diseño Gráfico</h4>
             </Link>
             
-            <Link href="/SitiosWeb">
+            <Link href="/WebSites">
                 <h4>Sitios Web</h4>
             </Link>
 
-            <Link href="/Galería">
+            <Link href="/Projects">
                 <h4>Galería</h4>
             </Link>
 
