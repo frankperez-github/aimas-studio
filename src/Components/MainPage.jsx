@@ -33,7 +33,9 @@ export default function MainPage()
             <div className="Comunidad container">
                 <h2>Comunidad</h2>
                 <p>Contamos con una aplia comunidad digital en dónde te brindamos consejos y recomendacuones para impulsar tu negocio en distintas esferas</p>
-                <button className="siteButton">unirme a la comunidad</button>
+                <a href="https://chat.whatsapp.com/GLp2MTYh04h0f8KF1q5Yk0">
+                    <button className="siteButton">unirme a la comunidad</button>
+                </a>
             </div>
             <div className="Us container" id="Nosotros">
                 <h2>¿Quiénes somos?</h2>

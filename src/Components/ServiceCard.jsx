@@ -15,11 +15,18 @@ export default function ServiceCard({other, image, color, bold, regular, text})
             ))}
             
             {other ?
-                <button className="siteButton" style={{backgroundColor: color, color: "white", borderColor: color}}>contactar al comercial</button>
+                <a href={`https://wa.me/message/MN6BFSOS42RHJ1?text=${"Hola, me gustaría conocer más sobre otros servicios"}`}>
+                    <button className="siteButton" style={{backgroundColor: color, color: "white", borderColor: color}}>contactar al comercial</button>
+                </a>
                 :
                 <div className="">
-                    <button className="siteButton" style={{backgroundColor: color, color: "white", borderColor: color}}>solicitar más información</button>
-                    <button className="siteButton" style={{backgroundColor: "white", color: color, borderColor: color}}>contratar servicio</button>
+                    <a href={`https://wa.me/message/MN6BFSOS42RHJ1?text=${"Hola, me gustaría conocer más sobre el servicio "+bold+" "+regular}`}>
+                        <button className="siteButton" style={{backgroundColor: color, color: "white", borderColor: color}}>solicitar más información</button>
+                    </a>
+
+                    <a href={`https://wa.me/message/MN6BFSOS42RHJ1?text=${"Hola, me gustaría contratar el servicio "+bold+" "+regular}`}>
+                        <button className="siteButton" style={{backgroundColor: "white", color: color, borderColor: color}}>contratar servicio</button>
+                    </a>
                 </div>
 }
         </div>

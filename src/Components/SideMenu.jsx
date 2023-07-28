@@ -26,14 +26,20 @@ export default function SideMenu({setMenu, menu})
             </Link>
 
             <div className="networks">
-                <div className="Instagram socialNet">
-                    <Image alt="" src="InstagramLight.svg" fill className="Image"/>
+            <div className="Instagram socialNet">
+                    <a href="https://instagram.com/aimas_studio?igshid=NTc4MTIwNjQ2YQ==">
+                        <Image alt="" src="InstagramLight.svg" fill className="Image"/>
+                    </a>
                 </div>
                 <div className="Facebook socialNet">
-                    <Image alt="" src="FacebookLight.svg" fill className="Image"/>
+                    <a href="https://www.facebook.com/profile.php?id=100093382833855">
+                        <Image alt="" src="FacebookLight.svg" fill className="Image"/>
+                    </a>
                 </div>
                 <div className="WhatsApp socialNet">
-                    <Image alt="" src="WhatsAppLight.svg" fill className="Image"/>
+                    <a href="https://wa.me/message/MN6BFSOS42RHJ1">
+                        <Image alt="" src="WhatsAppLight.svg" fill className="Image"/>
+                    </a>
                 </div>
             </div>
         </div>

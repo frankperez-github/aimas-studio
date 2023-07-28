@@ -5,13 +5,19 @@ export default function Footer()
     return(
         <div className="Footer container">
             <div className="Instagram socialNet">
-                <Image alt="" src="/Instagram.svg" fill className="Image"/>
+                <a href="https://instagram.com/aimas_studio?igshid=NTc4MTIwNjQ2YQ==">
+                    <Image alt="" src="Instagram.svg" fill className="Image"/>
+                </a>
             </div>
             <div className="Facebook socialNet">
-                <Image alt="" src="/Facebook.svg" fill className="Image"/>
+                <a href="https://www.facebook.com/profile.php?id=100093382833855">
+                    <Image alt="" src="Facebook.svg" fill className="Image"/>
+                </a>
             </div>
             <div className="WhatsApp socialNet">
-                <Image alt="" src="/WhatsApp.svg" fill className="Image"/>
+                <a href="https://wa.me/message/MN6BFSOS42RHJ1">
+                    <Image alt="" src="WhatsApp.svg" fill className="Image"/>
+                </a>
             </div>
         </div>
     );
