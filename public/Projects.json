@@ -1,12 +1,24 @@
 [
     {
+        "image": "/Cchang1.png",
+        "title": "Cchang S.U.R.L",
+        "description": "Página web institucional para empresa constructora CChang S.U.R.L. La misma contiene la descripción de la empresa, los servicios que ofrece, una galería de proyectos, su contacto y redes sociales.",
+        "currStatus": "implementado"
+    },
+    {
+        "image": "/elencanto.png",
+        "title": "El Encanto Liquidation",
+        "description": "Tienda Online creada para compañia de liquidación radicada en Texas, USA. Contiene carrito de compras integrado, botón de contacto, redes sociales y una pestaña para cada categoría de productos.",
+        "currStatus": "implementado"
+    },
+    {
         "image": "/karitex1.svg",
         "title": "Karitex S.U.R.L",
         "description": "Portada para redes sociales de empresa de confecciones textiles Karitex S.U.R.L",
         "currStatus": "implementado"
     },
     {
-        "image": "/turquino.svg",
+        "image": "/turquino.png",
         "title": "Turquino Tryp Havana Libre",
         "description": "Diseño de Cartel promocional para evento temático del proyecto de organización de eventos SAFARI y póster de ofertas disponibles para la discoteca Turquino del hotel Tryp Havana Libre",
         "currStatus": "implementado"
@@ -24,6 +36,12 @@
         "currStatus": "implementado"
     },
     {
+        "image":"/gym.png",
+        "title": "GYM Midtown",
+        "description": "Página web (Servicio) creada para la gestión de la asistencia de GYM Midtown, de Houston, USA.",
+        "currStatus":"próximo a implementarse"
+    },
+    {
         "image": "/Cchang2.svg",
         "title": "Cchang S.U.R.L",
         "description": "Rediseño del Identificador Visual de la empresa constructora Cchang S.U.R.L",
@@ -36,9 +54,21 @@
         "currStatus": "implementado"
     },
     {
-        "image": "/bisne.svg",
+        "image": "/bisne.png",
         "title": "El Bisne App",
         "description": "Creación del nombre de marca, identificador visual, manual de identidad y sitio web de la plataforma \"El Bisne\".\n Proyecto que permite a los emprendedores cubanos tener un mini sitio web por un precio módico de alojamiento mensual.",
+        "currStatus": "implementado"
+    },
+    {
+        "image": "/chocothay.png",
+        "title": "Choco Thay",
+        "description": "Diseño de identificador visual y etiquetas para chocolatería",
+        "currStatus": "implementado"
+    },
+    {
+        "image": "/safari.png",
+        "title": "Safari",
+        "description": "Identificador visual para proyecto de organización de eventos SAFARI",
         "currStatus": "implementado"
     }
 

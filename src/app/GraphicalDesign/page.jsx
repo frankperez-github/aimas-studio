@@ -22,7 +22,7 @@ export default function Design()
                     <ServiceCard bold={card.bold} regular={card.regular} image={card.image} color={card.color} text={card.text}/>
                 
             ))}
-            <ServiceCard other={true} bold={"Otros"} regular={"Servicios"} color={"pink"} image={"/pinkCheck.svg"} text={"Si usted desea un servicio independiente como:\n-Creación de tarjetas de presentación.\n-Catálogos digitales o cartas menú.\n-Diseño o rediseño de logotipo.\n-Cartel publicitario para redes sociales.\n-Identificador y papelería para evento.\n De igual manera puede contactarnos, será un placer atenderle."}/>
+            <ServiceCard other={true} bold={"Otros"} regular={"Servicios"} color={"#FF0057"} image={"/pinkCheck.svg"} text={"Si usted desea un servicio independiente como:\n-Creación de tarjetas de presentación.\n-Catálogos digitales o cartas menú.\n-Diseño o rediseño de logotipo.\n-Cartel publicitario para redes sociales.\n-Identificador y papelería para evento.\n De igual manera puede contactarnos, será un placer atenderle."}/>
 
             <div className="note container">
                 <h3>Nota</h3>

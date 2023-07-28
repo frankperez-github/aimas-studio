@@ -4,15 +4,15 @@
         "bold": "Sitio",
         "regular": "Promocional",
         "image": "/blueCheck.svg",
-        "color": "blue",
+        "color": "#3311E6",
         "text": "Sitio Web sencillo que contiene una descripción de su empresa, imágenes de los productos y/o servicios que ofrece y botones de contacto."    
     },
     {
         "category": "development",
         "bold": "Sitio",
         "regular": "Institucional",
-        "image": "/blueCheck.svg",
-        "color": "aqua",
+        "image": "/lightblueCheck.svg",
+        "color": "#006FFF",
         "text": "Página web que consta de varias pestañas en las que se reflejan la información completa de la empresa, sus servicios y-o productos, botones de contacto y para acceder a sus redes sociales, una galería de los proyectos realizados y un blog en el que puede publicar contenido afín a su actividad y ganar posicionamiento en los buscadores"    
     },
     {
@@ -20,7 +20,7 @@
         "bold": "Tienda",
         "regular": "Online",
         "image": "/greenCheck.svg",
-        "color": "green",
+        "color": "#08CB15",
         "text": "Plataforma de ventas en las que usted puede, no solo mostrar sus productos o servicios, sino también comercializarlos directamente mediante la integración de un carrito de compras. Contiene además todas las funcionalidades del sitio institucional."
     },
     {
@@ -28,7 +28,7 @@
         "bold": "App",
         "regular": "Móvil",
         "image": "/grayCheck.svg",
-        "color": "gray",
+        "color": "#635D5D",
         "text": "Convertimos su sitio web (de cualquier tipo) en una aplicación móvil compatible con todos los sistemas operativos existentes."
     },
     {
@@ -36,7 +36,7 @@
         "bold": "Diseño",
         "regular": "de Marcas",
         "image": "/redCheck.svg",
-        "color": "red",
+        "color": "#FF0000",
         "text": "Si tiene una idea de negocio nosotros lo ayudamos a materializarla.\nDiseñamos el nombre de su empresa, su identificador visual(Logotipo) y las aplicaciones del mismo pautados en un manual de identidad visual.\n Este servicio incluye el diseño de todos los soportes necesarios para la marca como sus redes sociales, catálogos o cartas menú, tarjetas de presentación, uniformes y más."
     },
     {
@@ -44,7 +44,7 @@
         "bold": "Gestión",
         "regular": "de Redes",
         "image": "/yellowCheck.svg",
-        "color": "orange",
+        "color": "#FF8800",
         "text": "La presencia en las redes sociales es vital para le contacto de un negocio con su público meta.\n En este servicio le ofrecemos distintos paquetes que incluyen la creación de un plan temático de contenido, el diseño de post y edición de videos y la publicación de los mismos.\n Garantizando siempre un aumento de la cantidad de seguidores."
     }
 ]
