@@ -15,7 +15,7 @@ export default function Footer()
                 </a>
             </div>
             <div className="WhatsApp socialNet">
-                <a href="https://wa.me/message/MN6BFSOS42RHJ1">
+                <a href="https://wa.me/+1 (305) 709-0744">
                     <Image alt="" src="WhatsApp.svg" fill className="Image"/>
                 </a>
             </div>
