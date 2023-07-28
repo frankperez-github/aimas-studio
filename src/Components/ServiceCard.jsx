@@ -15,7 +15,7 @@ export default function ServiceCard({other, image, color, bold, regular, text})
             ))}
             
             {other ?
-                <a href={`https://wa.me/+1 (305) 709-0744?text=${"Hola, me gustaría conocer más sobre otros servicios"}`}>
+                <a href={`https://wa.me/+1 (305) 709-0744?text=${"Hola, me gustaría conocer más sobre otros servicios que ofrecen"}`}>
                     <button className="siteButton" style={{backgroundColor: color, color: "white", borderColor: color}}>contactar al comercial</button>
                 </a>
                 :
