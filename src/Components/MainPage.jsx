@@ -32,7 +32,7 @@ export default function MainPage()
             </Link>
             <div className="Comunidad container">
                 <h2>Comunidad</h2>
-                <p>Contamos con una aplia comunidad digital en dónde te brindamos consejos y recomendacuones para impulsar tu negocio en distintas esferas</p>
+                <p>Contamos con una amplia comunidad digital en donde te brindamos consejos y recomendaciones para impulsar tu negocio en distintas esferas</p>
                 <a href="https://chat.whatsapp.com/GLp2MTYh04h0f8KF1q5Yk0">
                     <button className="siteButton">unirme a la comunidad</button>
                 </a>
