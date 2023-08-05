@@ -3,18 +3,6 @@ import { useEffect, useState } from "react";
 
 export default function ProjectCard({title, description, currStatus, image})
 {
-    const previewLength = 15
-    const [preview, setPreview] = useState("")
-    useEffect(()=>{
-        var counter = 0;
-        description.split(" ").map(word=>{
-            if(counter < previewLength)
-            {
-                setPreview(preview+" "+word)
-                counter++
-            }
-        })
-    },[description])
 
     return(
         <div className="Project">
@@ -24,8 +12,8 @@ export default function ProjectCard({title, description, currStatus, image})
             <div className="container">
                 <h6>{title}</h6>
        
-                {currStatus === undefined & preview ? 
-                    <p>{preview}...</p>
+                {currStatus === undefined ? 
+                    <p>{description.substr(0, 200)}...</p>
                     :    
                     description.split("\n").map(text=>(
                         <p>{text}<br/><br/></p>
