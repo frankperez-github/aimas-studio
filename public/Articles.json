@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "image":"/gym.png",
+        "title": "Primer Articulo",
+        "description": "Primer Texto del primer articulo publicado"
+    },
+    {
+        "id": 2,
+        "image":"/gym.png",
+        "title": "Segundo Articulo",
+        "description": "Primer Texto del segundo articulo publicado"
+    }
+]

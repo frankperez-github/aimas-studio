@@ -1,7 +1,8 @@
 'use client'
-import { createContext, useEffect } from 'react'
+import { createContext } from 'react'
 import services from '../../../public/Services.json'
 import projects from '../../../public/Projects.json'
+import articles from '../../../public/Articles.json'
 
 const SiteContext = createContext()
 
@@ -11,13 +12,13 @@ export const SiteContextProvider =({children})=>
         <SiteContext.Provider 
             value={{
                 services,
-                projects
+                projects,
+                articles
             }}
         >
             {children}
         </SiteContext.Provider>
     )
 }
-// const services = 
 
 export default SiteContext

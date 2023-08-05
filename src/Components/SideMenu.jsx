@@ -25,6 +25,10 @@ export default function SideMenu({setMenu, menu})
                 <h4>Galería</h4>
             </Link>
 
+            <Link href="/Blog">
+                <h4>Blog</h4>
+            </Link>
+
             <div className="networks">
             <div className="Instagram socialNet">
                     <a href="https://instagram.com/aimas_studio?igshid=NTc4MTIwNjQ2YQ==">
