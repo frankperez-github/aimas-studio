@@ -17,6 +17,10 @@ a, link
   src: url(../../public/fonts/Poppins-Bold.ttf);
 }
 @font-face {
+  font-family: "PoppinsExtraLight";
+  src: url(../../public/fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
   font-family: "PoppinsLight";
   src: url(../../public/fonts/Poppins-Light.ttf);
 }
@@ -30,7 +34,7 @@ h1,h2,h3,h6,b
 }
 h4,h5
 {
-  font-family: "PoppinsLight";
+  font-family: "PoppinsExtraLight";
 }
 p,a
 {
@@ -59,7 +63,7 @@ h2
 }
 h3,h4
 {
-  font-size: 28px;
+  font-size: 27px;
 }
 h5,h6
 {
@@ -133,7 +137,7 @@ p
 }
 .categories
 {
-  margin-bottom: 10%;
+  margin-bottom: 25%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -314,7 +318,7 @@ p
   }
   h3,h4
   {
-    font-size: 25px;
+    font-size: 24px;
   }
   h5,h6
   {
@@ -342,7 +346,7 @@ p
   }
   h3,h4
   {
-    font-size: 16px;
+    font-size: 15px;
   }
   h5,h6
   {
