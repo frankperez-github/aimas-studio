@@ -6,6 +6,9 @@ export default function MainPage()
 {
     return(
         <div className="MainPage">
+            <div className="mainImage">
+                <Image className="Image" fill src="/main-image.jpeg"/>
+            </div>
             <div className="AboutUs container">
                 <h2>Sobre Nosotros</h2>
                 <p>Somos un equipo creativo (TCP) que pone en tus manos la posibilidad de hacer brillar tu marca</p>
@@ -20,7 +23,7 @@ export default function MainPage()
             <Link href="/Projects">
                 <div className="goToGallery">
                     <div className="collage">
-                        <Image alt="" src="/aimasCollage.jpg" fill className="Image"/>
+                        <Image alt="" src="/aimasCollage.jpeg" fill className="Image"/>
                     </div>
                     <div className="line">
                         <div className="redTriang" style={{width: "7%", paddingRight: "3%"}}>

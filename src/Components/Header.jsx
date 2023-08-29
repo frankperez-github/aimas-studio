@@ -12,9 +12,6 @@ function Header() {
             <SideMenu setMenu={setMenu} menu={menu}/>
             <div className="Header">
                 <div className="Logo">
-                    <Link href="/">
-                        <Image alt="" className="Image" src="/Logo.svg" fill/>
-                    </Link>
                 </div>
 
                 <div className="burgerMenu" onClick={()=>setMenu("block")}>

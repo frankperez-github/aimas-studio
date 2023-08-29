@@ -13,28 +13,28 @@ a, link
   background-color: rgb(250, 250, 250);
 }
 @font-face {
-  font-family: "MonserratBold";
+  font-family: "PoppinsBold";
   src: url(../../public/fonts/MontserratAlternates-Bold.ttf);
 }
 @font-face {
-  font-family: "MonserratLight";
+  font-family: "PoppinsLight";
   src: url(../../public/fonts/MontserratAlternates-Light.ttf);
 }
 @font-face {
-  font-family: "MonserratRegular";
+  font-family: "PoppinsRegular";
   src: url(../../public/fonts/MontserratAlternates-Regular.ttf);
 }
 h1,h2,h3,h6,b
 {
-  font-family: "MonserratBold";
+  font-family: "PoppinsBold";
 }
 h4,h5
 {
-  font-family: "MonserratLight";
+  font-family: "PoppinsLight";
 }
 p,a
 {
-  font-family: "MonserratRegular";
+  font-family: "PoppinsRegular";
 }
 button
 {
@@ -45,7 +45,7 @@ button
   background-color: white;
   padding: 1%;
   width: 80%;
-  font-family: "MonserratLight";
+  font-family: "PoppinsLight";
 }
 button:hover
 {
@@ -246,7 +246,7 @@ p
 }
 .span
 {
-  font-family: "MonserratLight";
+  font-family: "PoppinsLight";
 }
 .cardTitle
 {
