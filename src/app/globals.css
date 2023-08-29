@@ -14,15 +14,15 @@ a, link
 }
 @font-face {
   font-family: "PoppinsBold";
-  src: url(../../public/fonts/MontserratAlternates-Bold.ttf);
+  src: url(../../public/fonts/Poppins-Bold.ttf);
 }
 @font-face {
   font-family: "PoppinsLight";
-  src: url(../../public/fonts/MontserratAlternates-Light.ttf);
+  src: url(../../public/fonts/Poppins-Light.ttf);
 }
 @font-face {
   font-family: "PoppinsRegular";
-  src: url(../../public/fonts/MontserratAlternates-Regular.ttf);
+  src: url(../../public/fonts/Poppins-Regular.ttf);
 }
 h1,h2,h3,h6,b
 {
