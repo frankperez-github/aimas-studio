@@ -1,5 +1,5 @@
 'use client'
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import {useParams} from 'next/navigation'
 import SiteContext from "../../Context/SiteContext";
 import Header from "@/Components/Header";
@@ -9,6 +9,7 @@ import CategoryCard from "@/Components/CategoryCard";
 
 export default function Article()
 {
+    const [imageIndex, setImageIndex] = useState(0)
     const {articles} = useContext(SiteContext)
     const { Id } = useParams()
     const article = articles.find((art)=>(art.id === +Id))
@@ -17,8 +18,16 @@ export default function Article()
             <Header />
             <Image src={article.image} fill className="Image"/>
             <h2 className="container title">{article.title}</h2>
-            {article.description.split("\n").map((text)=>
+            {article.description.split('\n').map((text)=>
             (
+                text.split(" ").map((word)=>(
+                    word === "(Foto)"&&(
+                        ()=>(setImageIndex(1)),
+                        console.log(imageIndex),
+                        text = text.split(word)[1]
+                    )
+                )),
+                // <Image src={article.secondaryImages[imageIndex]} alt="image" fill className="Image"/>,
                 <p className="container">{text}<br/><br/></p>
             ))}
             <div className="AboutUs container artUs">
